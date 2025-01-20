@@ -258,3 +258,127 @@ h1 {
     opacity: 1;
     transform: scale(1);
 }
+
+/* Base styles remain as provided */
+
+@media (max-width: 1024px) {
+    body {
+        padding: 1rem;
+    }
+
+    .container {
+        width: 95%;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        letter-spacing: 10px;
+        margin-bottom: 3rem;
+    }
+
+    .display_container {
+        margin: 1rem 0;
+        padding-top: 0.25rem;
+    }
+
+    .display {
+        font-size: 1.25rem;
+        line-height: 28px;
+    }
+
+    .strength_container p {
+        font-size: 1.25rem;
+    }
+
+    .generate_button {
+        font-size: 1.15rem;
+    }
+
+    .check label {
+        font-size: 1.25rem;
+    }
+
+    .slider {
+        height: 0.6rem;
+    }
+
+    .slider::-webkit-slider-thumb {
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        letter-spacing: 8px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .display {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .strength_container p {
+        font-size: 1rem;
+    }
+
+    .generate_button {
+        font-size: 1rem;
+    }
+
+    .check label {
+        font-size: 1rem;
+    }
+
+    .slider {
+        height: 0.5rem;
+    }
+
+    .slider::-webkit-slider-thumb {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.25rem;
+        letter-spacing: 5px;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+
+    .display {
+        font-size: 0.9rem;
+        line-height: 22px;
+    }
+
+    .strength_container p {
+        font-size: 0.9rem;
+    }
+
+    .generate_button {
+        font-size: 0.9rem;
+    }
+
+    .check label {
+        font-size: 0.9rem;
+    }
+
+    .slider {
+        height: 0.4rem;
+    }
+
+    .slider::-webkit-slider-thumb {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+}
